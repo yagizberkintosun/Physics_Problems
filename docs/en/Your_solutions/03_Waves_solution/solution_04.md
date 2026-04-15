@@ -1,22 +1,38 @@
-## 4. Phase Difference
+## **4. Detailed Analysis of Phase Difference**
 
-#### **1. Identify the Phase Difference Formula**
-The phase difference ($\Delta \phi$) between two points on a wave is directly related to their physical distance apart, called the path difference ($\Delta x$). The formula is:
-$$\Delta \phi = \frac{2\pi}{\lambda} \cdot \Delta x$$
+---
 
-*(Note: $2\pi$ represents a full wave cycle in radians, and $\lambda$ represents a full wave cycle in physical distance).*
+### **1. Conceptual Definition**
+In wave mechanics, **Phase ($\phi$)** describes the specific position of a point within a repetitive cycle (measured in radians or degrees). When we talk about **Phase Difference ($\Delta \phi$)**, we are measuring how far "out of sync" two points are based on their physical separation in space, known as the **Path Difference ($\Delta x$)**.
 
-#### **2. Substitute the Given Distance**
-The problem states that the two points are separated by a distance of one-third of a wavelength.
-* $\Delta x = \frac{\lambda}{3}$
+### **2. The Principle of Proportionality**
+A traveling wave is periodic. This means the relationship between spatial distance and angular phase is linear:
+* A physical distance of **one full wavelength ($\lambda$)** corresponds to **one full angular cycle ($2\pi$ radians)**.
 
-Substitute this value into our formula:
-$$\Delta \phi = \frac{2\pi}{\lambda} \cdot \left( \frac{\lambda}{3} \right)$$
+We can set up a direct proportion to find the phase difference for any arbitrary distance:
 
-#### **3. Solve for Phase Difference**
-The wavelength ($\lambda$) on the top and bottom cancels out perfectly:
-$$\Delta \phi = \frac{2\pi \cdot \lambda}{3 \cdot \lambda}$$
-$$\Delta \phi = \frac{2\pi}{3}$$
+$$\frac{\text{Phase Difference}}{\text{Full Cycle}} = \frac{\text{Path Difference}}{\text{Full Wavelength}}$$
 
-**Result:**
-**The phase difference is $\frac{2\pi}{3}$ radians.** *(Which is equivalent to $120^\circ$).*
+$$\frac{\Delta \phi}{2\pi} = \frac{\Delta x}{\lambda}$$
+
+### **3. Step-by-Step Mathematical Derivation**
+Given that the points are separated by a distance $\Delta x = \frac{\lambda}{3}$, we substitute this into our proportionality equation:
+
+**Step A: Rearrange for $\Delta \phi$**
+$$\Delta \phi = 2\pi \cdot \left( \frac{\Delta x}{\lambda} \right)$$
+
+**Step B: Substitute the given value**
+$$\Delta \phi = 2\pi \cdot \left( \frac{\lambda / 3}{\lambda} \right)$$
+
+**Step C: Simplify the fraction**
+By dividing the numerator and denominator by $\lambda$, we isolate the fractional part of the wave cycle:
+$$\Delta \phi = 2\pi \cdot \left( \frac{1}{3} \right)$$
+
+**Step D: Final Calculation**
+$$\Delta \phi = \frac{2\pi}{3} \text{ radians}$$
+
+### **4. Physical Interpretation**
+To provide a complete physical picture, we can convert this radian value into degrees to better visualize the displacement:
+$$\Delta \phi_{\text{degrees}} = \frac{2\pi}{3} \cdot \left( \frac{180^\circ}{\pi} \right) = 120^\circ$$
+
+**Conclusion:** A separation of $\lambda/3$ means the second point is exactly **one-third of a cycle** behind the first point. In a standard sine wave, if the first point is at a peak ($90^\circ$), the second point would be $120^\circ$ further along the wave, placing it in the declining slope just past the equilibrium position.
